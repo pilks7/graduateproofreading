@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+  <title>{% block title %}Login | Graduate Proofreading{% endblock title %}</title>
+  
+    {% block head_css_section %}
+          <style type="text/css">
+                
+        
+			@media (max-width: 600px) {
+		  		input[type=text], input[type=password] {
+		    	width: 90%;
+		    	margin-top: 0;
+	  			}
+
+	  			#logincontainer {
+
+	  			}
+      </style>
+	{% endblock head_css_section %}
+
+	
+
+{% block header %}
+<header class="w3-padding">
+ 
+  <div class="w3-center" style="padding-top: 50px">
+  
+  </div>
+</header>
+{% endblock header %}
+
+{% block content %}
+<body class="w3-theme">
+
+  <div class="w3-card w3-display-middle w3-round" style="width: 60%; max-width:600px" id="logincontainer">
+  	<div class="w3-container w3-dark-gray">
+    <form class="form-signin" action="#">       
+      <h2 class="form-signin-heading">Login</h2>
+      </div>
+	      <div class="w3-container w3-light-gray w3-padding-32" style="width:100%";>
+	      <div>Username</div>
+	      <input type="text" class="form-control" name="username" placeholder="Username/Email Address" required="" autofocus="" />
+	      <div></div>
+	      <div style="padding-right:6px">Password</div>
+	      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+	      <label class="checkbox">
+	      
+	      <div></div>
+        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Remember Me
+	      
+	  </label>
+      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+    </form>
+    </div>
+    <div class="w3-container w3-dark-gray" style="height:3em"></div>
+  </div>
+</body>
+{% endblock content %}
+{% block footer %}
+
+{% endblock footer %}
+
+
+
+
