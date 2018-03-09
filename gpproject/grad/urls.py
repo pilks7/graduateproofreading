@@ -22,7 +22,7 @@ from login import views
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-    re_path(r'^login/$', auth_views.login, {'template_name': 'registration/login.html'}, name='login'),
+    #re_path(r'^login/$', auth_views.login('template_name', 'accounts/login.html'), name='login'),
     re_path(r'^signup/$', views.signup, name='signup'),
     path('login/', include('login.urls')),
 	path('', views.index, name='index'),

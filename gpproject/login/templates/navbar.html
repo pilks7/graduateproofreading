@@ -11,10 +11,9 @@
   </div>
 </nav>
 
-  <!--small screens 
+  <!--small screens (breaks page functionality)
 
 <nav class="w3-main w3-collapse w3-sidebar w3-hide-large w3-hide-med w3-dark-gray">
-  
 </nav>
 -->
 
@@ -25,11 +24,20 @@
 
 <div class="w3-bar w3-left w3-dark-gray" style="width:100%;height:44px;display: block; overflow: hidden">
       
-      <button class="w3-bar-item w3-button w3-left"  onclick="w3_open()"  title="Sidebar"><i class="fas fa-bars fa-2x"></i></button>
-      <span id="nav-right-btn-margin" class="w3-bar-item w3-right" style="margin-right: 30px"> </span>
-      <a class="w3-bar-item w3-button w3-right w3-hide-small" href="{% url 'signup' %}" title="Sign Up" style="padding-top: 14px">SIGN UP</a>
-      <a class="w3-bar-item w3-button w3-right w3-hide-small" href="{% url 'login' %}" title="Login" style="padding-top: 14px">LOGIN</a>
-      <a class="w3-bar-item w3-button w3-right" href="#" title="#"></a>
-      <a class="w3-bar-item w3-button w3-right" href="#" title="#"></a>
+    <button class="w3-bar-item w3-button w3-left" onclick="w3_open()" title="Sidebar"> <i class="fas fa-bars fa-2x"> </i> </button>
+    <span id="nav-right-btn-margin" class="w3-bar-item w3-right w3-hide-small" style="margin-right: 30px;"> </span>
+    <a class="w3-round w3-button w3-right w3-theme w3-hide-small" href="{% url 'signup' %}" title="Sign Up" style="height:84%; margin:auto 0;">BECOME A PROOFREADER</a>
+    
+      <!--mobile signup button-->
+        <a class="w3-round w3-button w3-right w3-theme w3-hide-med w3-hide-large" href="{% url 'signup' %}" title="Sign Up" style="height:70%; margin:auto 0; line-height: 1em">BECOME A PROOFREADER</a> 
 
-     </div>
+      {% if request.user.is_authenticated %} 
+      {% include "logoutbutton.html" %}
+      {% else %}
+      {% include "loginbutton.html" %}
+      {% endif %}
+    <!-- SPARE BUTTONS
+    <a class="w3-bar-item w3-button w3-right" href="#" title="#"></a>
+    <a class="w3-bar-item w3-button w3-right" href="#" title="#"></a>
+    -->
+</div>

@@ -1,5 +1,36 @@
 {% extends "base.html" %}
 
 
+    {% block head_css_section %}
+        <style type="text/css">
+
+
+
+			  body {
+				  position: relative;
+				  margin: 0;
+
+				  min-height: 100%;
+				 
+				}
+        </style>
+    {% endblock head_css_section %}
+
+{% block header%}
+{% endblock header %}
+
 {% block content %}
+<body class="w3-theme">
+ 
+  <div class="w3-center" style="padding-top: 50px">
+  
+  </div>
+<h2>Sign up</h2>
+  <form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Sign up</button>
+  </form>
+
+</body>
 {% endblock content %}

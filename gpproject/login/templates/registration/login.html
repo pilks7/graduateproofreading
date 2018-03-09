@@ -34,15 +34,20 @@
 
   <div class="w3-card w3-display-middle w3-round" style="width: 60%; max-width:600px" id="logincontainer">
   	<div class="w3-container w3-dark-gray">
-    <form class="form-signin" action="#">       
+    <form class="form-signin" action="#" method="post">
+       
       <h2 class="form-signin-heading">Login</h2>
       </div>
 	      <div class="w3-container w3-light-gray w3-padding-32" style="width:100%";>
+	      		{% csrf_token %}
+  				{{ form.as_p }}  
+	      	<!--
 	      <div>Username</div>
 	      <input type="text" class="form-control" name="username" placeholder="Username/Email Address" required="" autofocus="" />
 	      <div></div>
 	      <div style="padding-right:6px">Password</div>
 	      <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
+	      -->
 	      <label class="checkbox">
 	      
 	      <div></div>
