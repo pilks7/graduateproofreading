@@ -22,9 +22,23 @@ def index(request):
     )
 
 def signup(request):
-
     return render(
         request,
         'login/signup.html',
         context={},
+)
+
+def jobs(request):
+    return render(
+        request,
+        'jobs.html',
+        context={},
+)
+
+def jobpost(request):
+    return render(
+        request,
+        'jobs.html',
+        context={},
+
 )

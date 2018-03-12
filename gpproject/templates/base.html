@@ -40,7 +40,10 @@
 
         {% block head_css_section %}
             <style type="text/css">
-                
+               a {
+                  color: inherit; /* blue colors for links too */
+                  text-decoration: inherit; /* no underline */
+                }
             </style>
         {% endblock head_css_section %}
 
@@ -84,6 +87,8 @@
 -->
 
 {% block content %}
+<body style="min-height: 100%; background-color: #00aac1">
+</body>
 
 {% endblock content %}
 
