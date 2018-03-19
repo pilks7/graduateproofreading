@@ -1,6 +1,5 @@
 
 {% extends "base.html" %}
-
 {% load staticfiles %}
 
   <title>{% block title %}Professional Essay Proofreading{% endblock title %}</title>
@@ -11,10 +10,22 @@
     </style>
  {% endblock head_css_section %}
 
+{% include 'navbar.html' %}
+
 {% block header %}
-{% include 'Header.html' %}
-
-
+<header class="w3-display-container" id="myHeader">
+  
+  <img src="/static/pics/office.jpeg" style="width:100%; padding: 0px; opacity: 0.5;">
+  
+  <div class="w3-display-middle w3-container" style="text-align: center">
+    <h4>GRADUTEPROOFREADING.CO.UK</h4>
+  <h1 class="w3-xxxlarge w3-animate-bottom">QUALITY ESSAY PROOFREADING</h1>
+    <div class="w3-padding-32">
+      <button class="w3-btn w3-xlarge w3-hover-light-grey" style="background-color: #00aac1" onclick="#" style=";"><span style="color: black; font-weight:900">TRY FOR FREE TODAY</span></button>
+      
+    </div>
+  </div>
+</header>
 {% endblock header %}
 
 {% block content %}
@@ -48,7 +59,7 @@
     </div>
 </div>
 -->
-<div class="w3-row-padding w3-center w3-margin-top w3-margin-bottom">
+<div class="w3-row-padding w3-center w3-margin">
 <div class="w3-third">
   <div class="w3-card-4 w3-container" style="min-height:460px">
   <h3>Quality Proofreaders</h3><br>
@@ -62,7 +73,7 @@
 </div>
 
 <div class="w3-third">
-  <div class="w3-card w3-container" style="min-height:460px">
+  <div class="w3-card-4 w3-container" style="min-height:460px">
   <h3>Unbeatable Price</h3><br>
   <i class="far fa-money-bill-alt fa-7x" style="color: #00aac1"></i>
   <p>Simple and Affordable</p>

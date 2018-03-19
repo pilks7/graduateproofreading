@@ -17,14 +17,14 @@ def index(request):
     # Render the HTML template index.html with the data in the context variable
     return render(
         request,
-        'login/index.html',
+        'index.html',
         context={},
     )
 
 def signup(request):
     return render(
         request,
-        'login/signup.html',
+        'signup.html',
         context={},
 )
 

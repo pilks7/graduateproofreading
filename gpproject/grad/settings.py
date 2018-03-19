@@ -25,7 +25,7 @@ SECRET_KEY = 'j3-==qeiyjqmhqvl49y67cs3zwxr%lw9lacbtqdd6a^3kgruw7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [*]
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -135,5 +135,5 @@ LOGIN_REDIRECT_URL = '/jobs/'
 
 LOGOUT_REDIRECT_URL = '/'
 
-import django_heroku
-django_heroku.settings(locals())
+#import django_heroku
+#django_heroku.settings(locals())
