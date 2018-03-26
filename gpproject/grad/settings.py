@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'login'
+    'login',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -131,12 +132,14 @@ STATIC_URL = '/static/'
 
 
 #Not needed after ?next={{request.path}} in login button?
-#LOGIN_REDIRECT_URL = '/jobs/'
+LOGIN_REDIRECT_URL = '/jobs/'
 
 LOGOUT_REDIRECT_URL = '/'
 
 #Potentially needed for non-explicit (required) login (pages)
-#LOGIN_URL = '/accounts/login'
+LOGIN_URL = '/accounts/login'
 
 #import django_heroku
 #django_heroku.settings(locals())
+
+AUTH_USER_MODEL = 'users.CustomUser'
