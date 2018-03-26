@@ -1,12 +1,15 @@
 
 {% extends "base.html" %}
 
-{% load staticfiles %}
-
   <title>{% block title %}Professional Essay Proofreading{% endblock title %}</title>
 
 {% block head_css_section %}
     <style type="text/css">
+      body {
+        background-color: none;        
+        min-height: 100%;
+        position:relative;
+      }
           
     </style>
  {% endblock head_css_section %}
@@ -18,7 +21,7 @@
 {% endblock header %}
 
 {% block content %}
-<body>
+
 
 
 <!--small screens
@@ -48,7 +51,7 @@
     </div>
 </div>
 -->
-<div class="w3-row-padding w3-center w3-margin-top w3-margin-bottom">
+<div class="w3-row-padding w3-center w3-margin-top w3-margin-bottom" style="min-height: 100%; display: block;">
 <div class="w3-third">
   <div class="w3-card-4 w3-container" style="min-height:460px">
   <h3>Quality Proofreaders</h3><br>
@@ -84,9 +87,12 @@
   </div>
 </div>
 </div>
-<div></div>
+<div style="min-height: 240px">
+  
+</div>
 
 
-</body>
+
 {% endblock content %}
-</html>
+
+

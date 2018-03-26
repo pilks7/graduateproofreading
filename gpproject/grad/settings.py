@@ -130,10 +130,13 @@ STATICFILES_DIRS = [
 STATIC_URL = '/static/'
 
 
-
-LOGIN_REDIRECT_URL = '/jobs/'
+#Not needed after ?next={{request.path}} in login button?
+#LOGIN_REDIRECT_URL = '/jobs/'
 
 LOGOUT_REDIRECT_URL = '/'
+
+#Potentially needed for non-explicit (required) login (pages)
+#LOGIN_URL = '/accounts/login'
 
 #import django_heroku
 #django_heroku.settings(locals())

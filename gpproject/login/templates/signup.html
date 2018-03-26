@@ -3,24 +3,18 @@
 
     {% block head_css_section %}
         <style type="text/css">
+          body {
+            background-color: #00aac1;
+          }
 
-
-
-			  body {
-				  position: relative;
-				  margin: 0;
-
-				  min-height: 100%;
-				 
-				}
-        </style>
+			  </style>
     {% endblock head_css_section %}
 
 {% block header%}
 {% endblock header %}
 
 {% block content %}
-<body class="w3-theme">
+<div style="min-height:100%;">
  
   <div class="w3-center" style="padding-top: 50px">
   
@@ -32,5 +26,5 @@
     <button type="submit">Sign up</button>
   </form>
 
-</body>
+</div>
 {% endblock content %}

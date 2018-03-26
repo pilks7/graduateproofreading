@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
 				"margin",
 				"margin-top"
 			],
@@ -32,19 +40,10 @@
 	"buffers":
 	[
 		{
-			"file": "login/models.py",
-			"settings":
-			{
-				"buffer_size": 253,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "grad/settings.py",
 			"settings":
 			{
-				"buffer_size": 3143,
+				"buffer_size": 3311,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -53,7 +52,77 @@
 			"file": "grad/urls.py",
 			"settings":
 			{
-				"buffer_size": 1147,
+				"buffer_size": 1221,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/views.py",
+			"settings":
+			{
+				"buffer_size": 1030,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 5132,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 2451,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/Header.html",
+			"settings":
+			{
+				"buffer_size": 1303,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/jobpost.html",
+			"settings":
+			{
+				"buffer_size": 259,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/footer.html",
+			"settings":
+			{
+				"buffer_size": 669,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "login/templates/signup.html",
+			"settings":
+			{
+				"buffer_size": 513,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/jobs.html",
+			"settings":
+			{
+				"buffer_size": 421,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -62,88 +131,43 @@
 			"file": "login/templates/registration/login.html",
 			"settings":
 			{
-				"buffer_size": 1733,
+				"buffer_size": 1815,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "login/templates/footer.html",
+			"file": "templates/myHeader.html",
 			"settings":
 			{
-				"buffer_size": 543,
+				"buffer_size": 1303,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "login/views.py",
+			"file": "templates/navbar.html",
 			"settings":
 			{
-				"buffer_size": 841,
+				"buffer_size": 2388,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "login/templates/login/signup.html",
+			"file": "templates/sidenav.html",
 			"settings":
 			{
-				"buffer_size": 70,
+				"buffer_size": 92,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "login/templates/base.html",
+			"file": "templates/userdropdown.html",
 			"settings":
 			{
-				"buffer_size": 4844,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "login/templates/login/index.html",
-			"settings":
-			{
-				"buffer_size": 2413,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "login/templates/myHeader.html",
-			"settings":
-			{
-				"buffer_size": 650,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "login/templates/navbar.html",
-			"settings":
-			{
-				"buffer_size": 1667,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/pilks/graduateproofreading/index.html",
-			"settings":
-			{
-				"buffer_size": 6639,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/pilks/Downloads/startbootstrap-sb-admin-gh-pages/index.html",
-			"settings":
-			{
-				"buffer_size": 45647,
+				"buffer_size": 472,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -181,19 +205,53 @@
 	},
 	"file_history":
 	[
+		"/home/pilks/graduateproofreading/gpproject/templates/index.html",
+		"/home/pilks/graduateproofreading/graduateproofreading/requirements.txt",
+		"/home/pilks/graduateproofreading/gpproject/runtime.txt",
+		"/home/pilks/graduateproofreading/gpproject/Procfile",
+		"/home/pilks/graduateproofreading/gpproject/grad/wsgi.py",
+		"/home/pilks/graduateproofreading/requirements.txt",
 		"//admin.py",
+		"/home/pilks/Downloads/Python-3.6.4/Modules/Setup",
+		"/home/pilks/Downloads/Python-3.6.4/Modules/Setup.dist",
+		"/home/pilks/graduateproofreading/graduateproofreading/Procfile",
+		"/home/pilks/graduateproofreading/runtime.txt",
+		"/home/pilks/gp/requirements.txt",
+		"/home/pilks/gp/runtime.txt",
+		"/home/pilks/graduateproofreading/gpproject/requirements.txt",
+		"/home/pilks/.cache/.fr-BLVvfx/Makefile",
+		"/home/pilks/.cache/.fr-fozUdH/requirements.txt",
+		"/home/pilks/.cache/.fr-lpfyro/Pipfile",
+		"/home/pilks/.cache/.fr-jMAQOp/Pipfile.lock",
+		"/home/pilks/graduateproofreading/gpproject/Pipfile",
+		"/home/pilks/.cache/.fr-KITmH8/README.md",
+		"/home/pilks/graduateproofreading/gpproject/grad/Procfile",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/login/index.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/Header.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/loginbutton.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/navbar.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/userdropdown.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/logoutbutton.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/jobs.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/jobpost.html",
+		"/home/pilks/graduateproofreading/gpproject/login/models.py",
+		"/home/pilks/graduateproofreading/gpproject/grad/settings.py",
+		"/home/pilks/graduateproofreading/gpproject/grad/urls.py",
 		"/home/pilks/graduateproofreading/gpproject/login/templates/footer.html",
+		"/home/pilks/graduateproofreading/gpproject/login/views.py",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/registration/login.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/login/signup.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/base.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/sidenav.html",
+		"/home/pilks/graduateproofreading/gpproject/login/templates/jobboard.html",
+		"/home/pilks/Downloads/startbootstrap-sb-admin-gh-pages/index.html",
+		"/home/pilks/graduateproofreading/index.html",
 		"/home/pilks/graduateproofreading/gpproject/login/templates/login/navbar.html",
 		"/home/pilks/Downloads/startbootstrap-sb-admin-gh-pages/login.html",
-		"/home/pilks/graduateproofreading/index.html",
-		"/home/pilks/graduateproofreading/gpproject/grad/settings.py",
 		"/home/pilks/graduateproofreading/gpproject/login/templates/signup.html",
 		"/home/pilks/graduateproofreading/gpproject/login/urls.py",
 		"/home/pilks/graduateproofreading/gpproject/login/apps.py",
-		"/home/pilks/graduateproofreading/gpproject/login/views.py",
-		"/home/pilks/graduateproofreading/gpproject/grad/urls.py",
 		"/home/pilks/djangotest/locallibrary/catalog/models.py",
-		"/home/pilks/graduateproofreading/gpproject/login/templates/base.html",
 		"/home/pilks/djangotest/locallibrary/catalog/templates/base_generic.html",
 		"/home/pilks/graduateproofreading/gpproject/grad/registration/login.html",
 		"/home/pilks/graduateproofreading/grad/grad/grad/settings.py",
@@ -245,29 +303,61 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "login/models.py",
+					"file": "grad/settings.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 253,
+						"buffer_size": 3311,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								83,
-								83
+								3279,
+								3279
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1398.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "grad/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1221,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -277,136 +367,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "grad/settings.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3143,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								905,
-								905
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 510.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "grad/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1147,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1141,
-								1141
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "login/templates/registration/login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1733,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								564,
-								564
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "login/templates/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 543,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								462,
-								462
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "login/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 841,
+						"buffer_size": 1030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								693,
-								693
+								793,
+								793
 							]
 						],
 						"settings":
@@ -419,62 +393,64 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "login/templates/login/signup.html",
+					"buffer": 3,
+					"file": "templates/base.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 70,
+						"buffer_size": 5132,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								70,
-								70
+								1894,
+								1894
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1570.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "login/templates/base.html",
+					"buffer": 4,
+					"file": "templates/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4844,
+						"buffer_size": 2451,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4836,
-								4836
+								216,
+								216
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 61.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -483,24 +459,24 @@
 			]
 		},
 		{
-			"selected": 2,
+			"selected": 4,
 			"sheets":
 			[
 				{
-					"buffer": 8,
-					"file": "login/templates/login/index.html",
+					"buffer": 5,
+					"file": "templates/Header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2413,
+						"buffer_size": 1303,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								301,
-								301
+								0,
+								0
 							]
 						],
 						"settings":
@@ -517,20 +493,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "login/templates/myHeader.html",
+					"buffer": 6,
+					"file": "templates/jobpost.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 650,
+						"buffer_size": 259,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								385,
-								385
+								60,
+								60
 							]
 						],
 						"settings":
@@ -541,24 +517,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "login/templates/navbar.html",
+					"buffer": 7,
+					"file": "templates/footer.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1667,
+						"buffer_size": 669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								364,
-								364
+								56,
+								56
 							]
 						],
 						"settings":
@@ -569,6 +545,92 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "login/templates/signup.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								280,
+								280
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "templates/jobs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 421,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "login/templates/registration/login.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1788,
+								1788
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 271.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -576,49 +638,19 @@
 				},
 				{
 					"buffer": 11,
-					"file": "/home/pilks/graduateproofreading/index.html",
+					"file": "templates/myHeader.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6639,
+						"buffer_size": 1303,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1792,
-								1792
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 433.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/home/pilks/Downloads/startbootstrap-sb-admin-gh-pages/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1287,
-								1287
+								646,
+								646
 							]
 						],
 						"settings":
@@ -631,7 +663,93 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "templates/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2388,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								736,
+								736
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 481.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "templates/sidenav.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "templates/userdropdown.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -665,7 +783,7 @@
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.512445425208,
 			1.0
 		],
 		"rows":
@@ -713,7 +831,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
