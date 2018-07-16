@@ -6,15 +6,40 @@
 <!--large screens-->	
 	{% include "sidenav.html" %}
 	<div class="w3-hide-small" style="margin:20% 0 0 30%; position:absolute; background-color: #00aac1">
+	
+	{% for post in posts %}
+		<div class="w3-card-4">
 
-	{% include "jobpost.html" %}
+			<header class="w3-container w3-blue">
+			<h1>Header</h1>
+			</header>
+		
+		{% comment %} {% if jobtaken is True %}
+		  <div class="w3-container" style="background-color: #ff751a">
+		{% else %}  
+		  <div class="w3-container" style="background-color: rgb(91, 243, 45)>
+		{% endif %}     {% endcomment %}
+		
+		<div class="w3-container" style="background-color: #ff751a">
+		  <p>published: {{ JobPost.created_at }}</p>
+		  <h1><a href="">{{ JobPost.client }}</a></h1>
+		</div>
+		
+		<footer class="w3-container w3-blue">
+		  <h5>Footer</h5>
+		</footer>
+		
+		</div> 
+	{% endfor %}
 
 </div>
 
 <!--mobile container-->
-	<div class="w3-hide-medium w3-hide-large" style=" position:relative; padding-top: 44px;>
+	<div class="w3-hide-medium w3-hide-large" style="position:relative; padding-top: 44px;">
 
-	{% include "jobpost.html" %}
+	{% for post in posts %}
+	{{ JobPost }}
+	{% endfor %}
 
 </div>
 
