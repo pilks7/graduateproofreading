@@ -4,13 +4,13 @@
   <h1>Header</h1>
 </header>
 
-{% comment %} {% if jobtaken is True %}
+{% if jobtaken is True %}
   <div class="w3-container" style="background-color: #ff751a">
 {% else %}  
-  <div class="w3-container" style="background-color: rgb(91, 243, 45)>
-{% endif %}     {% endcomment %}
+  <div class="w3-container" style="background-color: rgb(91, 243, 45)">
+{% endif %}    
 
-  <div class="w3-container" style="background-color: #ff751a">
+
   <p>published: {{ JobPost.created_at }}</p>
   <h1><a href="">{{ JobPost.client }}</a></h1>
 </div>
