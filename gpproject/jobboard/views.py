@@ -15,12 +15,16 @@ def jobs(request):
     #posts = JobPost.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     
     latest_post_list = JobPost.objects.order_by('-pub_date')
+
     context: {
-        'posts': posts, 
+        
         'deadline': deadline,
         'created_at': created_at, 
         'wordcount':wordcount, 
-        'jobtaken':jobtaken
+        'jobtaken':jobtaken,
+        'JobPost':JobPost,
+        'latest_post_list':latest_post_list,
     }
+
     return render(request, 'jobboard/jobs.html', context=context)
 
