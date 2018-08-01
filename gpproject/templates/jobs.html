@@ -3,7 +3,7 @@
 {% block content %}
 
 
-<!--large screens-->	
+{% comment %} <!--large screens-->	
 	{% include "sidenav.html" %}
 	<div class="w3-hide-small" style="margin:20% 0 0 30%; position:absolute; background-color: #00aac1">
 	
@@ -20,7 +20,17 @@
 	{{ JobPost }}
 	{% endfor %}
 
-</div>
+</div> {% endcomment %}
+
+{% if latest_post_list %}
+    <ul>
+    {% for post in latest_post_list %}
+		<li>{{ JobPost }}</li>
+	{% endfor %}
+    </ul>
+{% else %}
+    <p>No posts are available.</p>
+{% endif %}
 
 
 {% endblock content %}

@@ -3,6 +3,7 @@ from datetime import datetime
 from datetime import timedelta
 
 
+
 # Create your models here.
 
 def get_deadline():
@@ -16,10 +17,13 @@ class JobPost(models.Model):
     # client = models.User.username  
      
     class Meta:
-        ordering = ["-created_at"]  
+        ordering = (
+        ("jobtaken"),
+        ("-created_at"),
+    )
 
     def publish(self):
-        self.published_date = timezone.now()
+        self.pub_date = timezone.now()
         self.save()
 
 
