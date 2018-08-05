@@ -22,15 +22,16 @@
 
 </div> {% endcomment %}
 
-{% if latest_post_list %}
-    <ul>
+
+	<ul>
     {% for post in latest_post_list %}
-		<li>posts</li>
-	{% endfor %}
-    </ul>
-{% else %}
-    <p>No posts are available.</p>
-{% endif %}
+		<li>{{ post }}</li>
+	</ul>
+    
+	{% empty %}
+	<p>No posts are available.</p>
+	
+	{% endfor %} 
 
 
 {% endblock content %}

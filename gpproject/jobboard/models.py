@@ -16,18 +16,15 @@ class JobPost(models.Model):
     jobtaken = models.BooleanField(default=False)
     # client = models.User.username  
      
-    class Meta:
-        ordering = (
-        ("jobtaken"),
-        ("-created_at"),
-    )
+    # class Meta:
+    #     ordering = (
+    #     # ("jobtaken"),
+    #     ("-created_at"),
+    # )
 
-    def publish(self):
-        self.pub_date = timezone.now()
-        self.save()
-
-
-
+    # def publish(self):
+    #     self.pub_date = timezone.now()
+    #     self.save()
 
     def __str__(self):
         return "Job #{}".format(self.pk)

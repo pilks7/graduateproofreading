@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, re_path, include
 from django.conf.urls import url
 from django.contrib.auth import views as auth_views
+from jobboard import views as job_views
 from login import views
 
 urlpatterns = [
@@ -27,9 +28,9 @@ urlpatterns = [
     path('login/', include('login.urls')),
 	path('', views.index, name='index'),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('jobs/', views.jobs, name='jobs'),
     path('users/', include('users.urls')),
     path('users/', include('django.contrib.auth.urls')),
+    path('jobs/', job_views.jobs, name='jobs')
 ]
 
 

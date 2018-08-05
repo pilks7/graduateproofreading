@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
-from django.contrib.auth.decorators import staff_member_required
+#from django.contrib.auth.decorators import staff_member_required
 from .models import JobPost
 from django.utils import timezone
 # Create your views here.
@@ -14,17 +14,13 @@ from django.utils import timezone
 def jobs(request):
     #posts = JobPost.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
     
-    latest_post_list = JobPost.objects.order_by('-pub_date')
+    # latest_post_list = JobPost.objects.order_by('-pub_date')
+    latest_post_list =  JobPost.objects.all()   
 
-    context: {
+    context = {
         
-        'deadline': deadline,
-        'created_at': created_at, 
-        'wordcount':wordcount, 
-        'jobtaken':jobtaken,
-        'JobPost':JobPost,
         'latest_post_list':latest_post_list,
     }
 
-    return render(request, 'jobboard/jobs.html', context=context)
+    return render(request, 'jobs.html', context=context)
 
