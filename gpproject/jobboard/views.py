@@ -12,15 +12,26 @@ from django.utils import timezone
 
 #changed published_date to pub_date in .models
 def jobs(request):
-    #posts = JobPost.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    
-    # latest_post_list = JobPost.objects.order_by('-pub_date')
-    latest_post_list =  JobPost.objects.all()   
-
+        
+    latest_post_list = JobPost.objects.order_by('-created_at')
+     
     context = {
         
         'latest_post_list':latest_post_list,
     }
 
     return render(request, 'jobs.html', context=context)
+
+def jobpost(request):
+
+    context = {
+        
+        'created_at':created_at,
+        'deadline':daedline,   
+        'wordcount':wordcount, 
+        'jobtaken':jobtaken,
+        
+    }
+
+    return render(request, 'jobpost.html', context=context)
 

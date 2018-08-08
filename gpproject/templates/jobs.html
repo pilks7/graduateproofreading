@@ -1,6 +1,10 @@
 {% extends "base.html" %}
-
+{# TO DO:
+	@ MAKE JOBPOSTS PRETTY
+	@ CREATE FILTER FOR VIEWING POST LIST
+#}
 {% block content %}
+
 
 
 {% comment %} <!--large screens-->	
@@ -22,7 +26,7 @@
 
 </div> {% endcomment %}
 
-
+{% comment %} 
 	<ul>
     {% for post in latest_post_list %}
 		<li>{{ post }}</li>
@@ -31,7 +35,15 @@
 	{% empty %}
 	<p>No posts are available.</p>
 	
-	{% endfor %} 
+	{% endfor %}  {% endcomment %}
 
+	{% for job in latest_post_list %}
+    {% include 'jobpost.html' with  job=job jobtaken=jobtaken %}
+
+
+{% empty %}
+<p>no posts</p>
+
+{% endfor %} 
 
 {% endblock content %}

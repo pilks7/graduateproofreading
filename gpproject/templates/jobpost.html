@@ -1,22 +1,24 @@
-<div class="w3-card-4">
+ 
+ 
+ <div class="w3-card-4">
 
-<header class="w3-container w3-blue">
-  <h1>Header</h1>
-</header>
 
-{% if jobtaken is True %}
-  <div class="w3-container" style="background-color: #ff751a">
+ 
+ 
+ 
+
+ {% if job.jobtaken is True %}
+  <div class="w3-container" style="background-color: #ff751a; float: clear">
 {% else %}  
   <div class="w3-container" style="background-color: rgb(91, 243, 45)">
 {% endif %}    
+<h1>{{ job }}</h1>
 
 
-  <p>published: {{ JobPost.created_at }}</p>
-  <h1><a href="">{{ JobPost.client }}</a></h1>
+  <p>published: {{ job.created_at }}</p>
+  <h1><a href="#">{{ job.client }}</a></h1>
 </div>
 
-<footer class="w3-container w3-blue">
-  <h5>Footer</h5>
-</footer>
 
-</div> 
+
+</div>
