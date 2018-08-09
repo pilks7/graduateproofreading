@@ -2,46 +2,37 @@
 {# TO DO:
 	@ MAKE JOBPOSTS PRETTY
 	@ CREATE FILTER FOR VIEWING POST LIST
+	@style 'empty' templatetag
 #}
+
+{% block header %}
+{% endblock header %}
+
 {% block content %}
 
-
-
-{% comment %} <!--large screens-->	
-	{% include "sidenav.html" %}
-	<div class="w3-hide-small" style="margin:20% 0 0 30%; position:absolute; background-color: #00aac1">
+<style>
+	#jobpoststack {
+		/*margin: 0% 6% 1% 30%*/
+		
+		
+	}
+	#jobtoppadding {
+		margin: 0px 0px 90px 0px;
+	}
 	
-	{% for post in posts %}
-		{% include "jobpost.html" %}
-	{% endfor %}
+</style>
 
+<div id="jobtoppadding">
+	<br>
 </div>
 
-<!--mobile container-->
-	<div class="w3-hide-medium w3-hide-large" style="position:relative; padding-top: 44px;">
-
-	{% for post in posts %}
-	{{ JobPost }}
-	{% endfor %}
-
-</div> {% endcomment %}
-
-{% comment %} 
-	<ul>
-    {% for post in latest_post_list %}
-		<li>{{ post }}</li>
-	</ul>
-    
-	{% empty %}
-	<p>No posts are available.</p>
-	
-	{% endfor %}  {% endcomment %}
-
+<div id="jobpoststack">
 	{% for job in latest_post_list %}
-    {% include 'jobpost.html' with  job=job jobtaken=jobtaken %}
-
+    {% include 'jobpost.html' with  job=job %}
+</div>
 
 {% empty %}
+<!-- this needs styling-->
 <p>no posts</p>
 
 {% endfor %} 

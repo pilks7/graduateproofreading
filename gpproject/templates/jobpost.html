@@ -1,25 +1,35 @@
  <!--
   @ Drop-down filter by <__>
   @ Accept job button (plus all backend workings)
+  @ Format page to look better
 -->
- 
- <div class="w3-card-4">
+ <style>
+  .jobbox {
+    margin:0% 2% 3px 25%; 
+    
+  }
 
+</style>
 
- 
- 
- 
+{% comment %} <div style="height:100%; width:30%;"></div> {% endcomment %}
+
+<div class=" jobbox">
+
 
  {% if job.jobtaken is True %}
-  <div class="w3-container" style="background-color: #ff751a; float: clear">
+  <div class="w3-container w3-card-2" style="background-color: #ff751a; float: clear; border-radius:15px 50px;">
 {% else %}  
-  <div class="w3-container" style="background-color: rgb(91, 243, 45)">
+  <div class="w3-container w3-card-2" style="background-color: rgb(91, 243, 45); border-radius:15px 50px">
 {% endif %}    
 <h1>{{ job }}</h1>
 
 
   <p>published: {{ job.created_at }}</p>
   <h1><a href="#">{{ job.client }}</a></h1>
+  {% if job.jobtaken is False %}
+<button href="#" class="w3-button w3-round w3-white w3-hover-gray w3-large" style="float:right; margin:0 10px 10px 0;">
+Take Job</button>
+{% endif %}
 </div>
 
 
