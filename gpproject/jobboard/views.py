@@ -22,16 +22,4 @@ def jobs(request):
 
     return render(request, 'jobs.html', context=context)
 
-def jobpost(request):
-
-    context = {
-        
-        'created_at':created_at,
-        'deadline':daedline,   
-        'wordcount':wordcount, 
-        'jobtaken':jobtaken,
-        
-    }
-
-    return render(request, 'jobpost.html', context=context)
 

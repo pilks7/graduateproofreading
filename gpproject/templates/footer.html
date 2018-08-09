@@ -2,22 +2,24 @@
 
 <style>
 .footer {
-/*   position: relative;
+   position: relative;
    top: 500px;
-   width: 100%;*/
+   width: 100%;
    
+{% comment %}    
    position: absolute;
    bottom: 0px;
-   width: 100%;
+   width: 100%; {% endcomment %}
+   
 
-   text-align: center;
+   text-align: center; 
 
 }
 </style>
 
 <footer class="w3-container w3-dark-gray w3-padding-16 footer">
   <h3>Graduate Proofreading</h3>
-  <div style="position:relative; bottom:55px;" class="w3-tooltip w3-right">
+  <div style="position:relative; bottom:0px;" class="w3-tooltip w3-right">
     <span class="w3-text w3-theme-light w3-padding">Go To Top</span>    
     <a class="w3-text-white" href="#Header"><span class="w3-xlarge">
     <i class="fa fa-chevron-circle-up" style="color: #FFF"></i></span></a>
