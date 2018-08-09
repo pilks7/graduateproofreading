@@ -11,7 +11,7 @@ def get_deadline():
 
 class JobPost(models.Model):
     created_at = models.DateTimeField(auto_now_add=True, blank=True)
-    deadline = models.DateField(default=get_deadline)    
+    deadline = models.DateField(default=get_deadline)    # make show time as well as date!
     wordcount = models.IntegerField()
     jobtaken = models.BooleanField(default=False)
     # client = models.User.username  
