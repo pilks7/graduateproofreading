@@ -25,7 +25,20 @@
 <div id="jobtoppadding">
 	<br>
 </div>
+<div class="w3-dropdown-click w3-right" style="margin-right:6%">
+	<h5>
+	<a href="#" onclick="myFunction()" class="w3-button" title="" style="text-decoration: none;">Filter <i class="fas fa-caret-down"></i></a>
+	</h5>
+	<div id="filter" class="w3-dropdown-content w3-bar-block w3-border">
+		<a href="#" class="w3-bar-item w3-button">BLah</a>
+		<a href="#" class="w3-bar-item w3-button">Blah</a>
+		<a class="w3-bar-item w3-button" href="" title="">Blah</a>
+	</div>
+</div>
 
+<div id="jobtoppadding">
+	<br>
+</div>
 <div id="jobpoststack">
 	{% for job in latest_post_list %}
     {% include 'jobpost.html' with  job=job %}
@@ -37,4 +50,16 @@
 
 {% endfor %} 
 
+<script>
+		function myFunction() {
+			var x = document.getElementById("filter");
+			if (x.className.indexOf("w3-show") == -1) { 
+				x.className += " w3-show";
+			} else {
+				x.className = x.className.replace(" w3-show", "");
+			}
+		}
+		</script>
 {% endblock content %}
+
+

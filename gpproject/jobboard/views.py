@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic import TemplateView
-#from django.contrib.auth.decorators import staff_member_required
+from django.contrib.admin.views.decorators import staff_member_required
 from .models import JobPost
 from django.utils import timezone
 # Create your views here.
@@ -11,6 +11,7 @@ from django.utils import timezone
 #      posts = JobPost.objects.filter(published_date__lte=timezone.now()).order_by('pub_date')
 
 #changed published_date to pub_date in .models
+@staff_member_required()
 def jobs(request):
         
     latest_post_list = JobPost.objects.order_by('-created_at')

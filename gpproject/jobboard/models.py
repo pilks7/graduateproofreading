@@ -14,6 +14,9 @@ class JobPost(models.Model):
     deadline = models.DateField(default=get_deadline)    # make show time as well as date!
     wordcount = models.IntegerField()
     jobtaken = models.BooleanField(default=False)
+    #price!!!
+
+    
     # client = models.User.username  
      
     # class Meta:
