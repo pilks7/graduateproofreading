@@ -7,5 +7,7 @@
 			"path": "gpproject"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
 }
