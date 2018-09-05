@@ -25,9 +25,10 @@
 <div id="jobtoppadding">
 	<br>
 </div>
-<div class="w3-dropdown-click w3-right" style="margin-right:6%">
+
+<div class="w3-dropdown-hover w3-right" style="margin-right:6%">
 	<h5>
-	<a href="#" onclick="myFunction()" class="w3-button" title="" style="text-decoration: none;">Filter <i class="fas fa-caret-down"></i></a>
+	<a href="#" class="w3-button" title="" style="text-decoration: none;">Filter <i class="fas fa-caret-down"></i></a>
 	</h5>
 	<div id="filter" class="w3-dropdown-content w3-bar-block w3-border">
 		<a href="#" class="w3-bar-item w3-button">BLah</a>
@@ -50,16 +51,6 @@
 
 {% endfor %} 
 
-<script>
-		function myFunction() {
-			var x = document.getElementById("filter");
-			if (x.className.indexOf("w3-show") == -1) { 
-				x.className += " w3-show";
-			} else {
-				x.className = x.className.replace(" w3-show", "");
-			}
-		}
-		</script>
 {% endblock content %}
 
 
