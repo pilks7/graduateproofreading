@@ -1,2 +1,2 @@
-web: gunicorn gpproject.grad.wsgi
+web: gunicorn grad.wsgi:application
 
