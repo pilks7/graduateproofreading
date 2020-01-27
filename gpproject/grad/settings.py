@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -124,13 +125,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 STATICFILES_DIRS = [ 
-
+os.path.join(BASE_DIR, "static"),
 
 
 ]
 
 STATIC_URL = '/static/'
 
+STATIC_ROOT = os.path.normpath(os.path.join(BASE_DIR, 'staticfiles'))
 
 #Not needed after ?next={{request.path}} in login button?
 LOGIN_REDIRECT_URL = '/jobs/'
@@ -140,7 +142,8 @@ LOGOUT_REDIRECT_URL = '/'
 #Potentially needed for non-explicit (required) login (pages)
 LOGIN_URL = '/accounts/login'
 
-#import django_heroku
-#django_heroku.settings(locals())
+#activate django_heroku
+django_heroku.settings(locals())
 
 AUTH_USER_MODEL = 'users.CustomUser'
+

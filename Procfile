@@ -1,1 +1,2 @@
-web: gunicorn grad.wsgi --log-file -
+web: gunicorn grad.wsgi
+
